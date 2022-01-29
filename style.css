@@ -1,0 +1,240 @@
+* {
+  margin: auto 0;
+}
+h1 {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 7vw;
+  text-shadow: 1px 3px 3px #000000;
+  text-decoration: underline;
+}
+
+main {
+  height: 150vh;
+}
+/* Nav Bar */
+nav {
+  background-color: #2854BA;
+  background: -moz-linear-gradient(top, #2854BA 0%, #283450 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2854BA), color-stop(100%,#283450));
+  background: -webkit-linear-gradient(top, #2854BA 0%,#283450 100%);
+  background: -o-linear-gradient(top, #2854BA 0%,#283450 100%);
+  background: -ms-linear-gradient(top, #2854BA 0%,#283450 100%);
+  background: linear-gradient(top, #2854BA 0%,#283450 100%);
+  position: fixed;
+  width: 100%;
+}
+
+li a {
+    color: #f2f2f2;
+    background-color: transparent;
+    text-decoration: underline;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.5vw;
+    border-left: 1px solid #f2f2f2;
+}
+
+li a:hover {
+  text-shadow: 1px 1px 1px #000000;
+}
+
+li a.active {
+  color: #5e63b6;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  /* font-size: 0.7em; */
+  margin: 0;
+}
+
+.logo-main {
+  height: 2.5vw;
+  width: 3.5vw;
+  padding: 10px;
+  padding-right: 2vw;
+}
+
+.push {
+  margin-left: auto;
+}
+
+/* Home container */
+
+/* Footer */
+
+footer {
+  background-color: #2854BA;
+  background: -moz-linear-gradient(top, #2854BA 0%, #283450 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2854BA), color-stop(100%,#283450));
+  background: -webkit-linear-gradient(top, #2854BA 0%,#283450 100%);
+  background: -o-linear-gradient(top, #2854BA 0%,#283450 100%);
+  background: -ms-linear-gradient(top, #2854BA 0%,#283450 100%);
+  background: linear-gradient(top, #2854BA 0%,#283450 100%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.logo {
+  height: 3vw;
+  width: 2.5vw;
+}
+/* Covers */
+.cover-home {
+  background: url(./img/cover.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+
+}
+
+.cover-services {
+  background: url(./img/services.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+
+}
+
+.cover-contact {
+  background: url(./img/contact.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+
+}
+/* Front Page */
+
+.front-page {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(./img/landingpage.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.welcome {
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 7vw;
+  text-shadow: 3px 3px 3px #000000;
+  display: grid;
+  justify-content:center;
+  margin-top: 15%;
+  margin-bottom: 5%;
+}
+
+.welcome:hover {
+  cursor: default;
+}
+
+.enter-button {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter {
+  box-shadow: 0px 10px 14px -7px #000000;
+	background-color:transparent;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	cursor:pointer;
+	color:#ffffff;
+	padding:6px 12px;
+}
+
+.enter:hover {
+	background-color:#000000;
+  opacity: 0.3;
+}
+
+.buttonlogo {
+  height: 100px;
+  width: 125px;
+}
+/*Social Media Buttons*/
+
+.social {
+  display: grid;
+  position: fixed;
+  grid-column: 1fr;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 3vw;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #8134AF;
+  color: white;
+}
+
+/*media*/
+
+@media only screen and (max-width: 810px) {
+
+  li a {
+    font-size: 4vw;
+  }
+
+  .welcome {
+      margin-top: 55%;
+      font-size: 12vw;
+  }
+
+  .logo-main {
+    height: 5vw;
+    width: 7.5vw;
+  }
+
+  .main-nav {
+    font-size: 0.5em;
+    padding: 0;
+  }
+}

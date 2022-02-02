@@ -13,6 +13,7 @@ h1 {
 
 h2 {
   margin: 20px;
+  margin-top: 50px;
   text-align: center;
   font-size: 50px;
   font-weight: bold;
@@ -60,7 +61,6 @@ li a.active {
 .main-nav {
   display: flex;
   list-style: none;
-  /* font-size: 0.7em; */
   margin: 0;
 }
 
@@ -78,9 +78,8 @@ li a.active {
 /* Home Page */
 
 .about {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   align-content: center;
   justify-content: center;
 }
@@ -89,6 +88,7 @@ li a.active {
     padding: 20px;
     margin: 20px;
     height: auto;
+    width: 350px;
 }
 
 .header {
@@ -98,7 +98,6 @@ li a.active {
   font-style: oblique;
   text-decoration: underline;
   text-decoration-color: #FF8520;
-  grid-column: 1 / span 2;
 }
 
 .text {
@@ -111,7 +110,6 @@ li a.active {
   width: 100%;
   background-color: #FF8520;
   height: 20vh;
-  border-bottom: 2px solid #5D73A7;
 }
 
 .bottom {
@@ -134,8 +132,9 @@ li a.active {
 }
 
 video {
-  width: 75vw;
-  border: 2px solid #283450;
+  width: 50vw;
+  padding: 2vw;
+  border: 1px solid #FF8520;
   -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
   -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
   -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
@@ -175,7 +174,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60vh;
+  height: 40rem;
 
 }
 
@@ -188,7 +187,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60vh;
+  height: 40rem;
 
 }
 
@@ -201,7 +200,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60vh;
+  height: 40rem;
 
 }
 /* Front Page */
@@ -258,7 +257,7 @@ footer {
   width: 125px;
 }
 
-/* Service Page */
+/* Services */
 
 .service-info {
   text-align: center;
@@ -434,6 +433,9 @@ textarea {
     text-align: center;
   }
 
+  .cover-home, .cover-services, .cover-contact {
+    height: 25rem;
+  }
   .text {
     text-align: center;
   }

@@ -311,58 +311,53 @@ footer {
 
 /* Contact Page */
 
+.contactbackground {
+  background: url(./img/contactbackground.png) no-repeat center left fixed;
+}
+
 .contact-container {
   display: flex;
   text-align: center;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  margin: 50px;
-  border-left: 1px solid #FF8520;
+
 }
 
 form {
-  margin: 50px;
-  border: 2px solid #283450;
-  padding: 50px;
-  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  width: 33vw;
+  margin: 20px;
+  margin-bottom: 100px;
 }
 
 input {
   width: 100%;
+  margin: 5px;
 }
 
 textarea {
   width: 100%;
+  margin: 5px;
+
 }
 
-.info > img {
-  width: 350px;
-  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-}
 
 .info {
   text-align: center;
-  border: 2px solid #283450;
-  padding: 41px;
-  -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-weight: bold;
+
 }
 
 .info > p {
   margin-top: 20px;
 }
 
-.address {
-  border-bottom: 1px solid #FF8520;
+.contactimg {
+  width: 50px;
+  margin-top: 50px;
 }
 
 /*Social Media Buttons*/
@@ -457,14 +452,6 @@ textarea {
     width: 230px;
     margin: 0;
     margin-bottom: 20px;
-  }
-
-  .info > img {
-    width: 230px;
-  }
-
-  .info {
-    padding: 62px 50px;
   }
 
   .social {

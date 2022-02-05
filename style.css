@@ -85,6 +85,7 @@ li a.active {
   align-content: center;
   justify-content: center;
   background: url(./img/wheelbackground.png) no-repeat center center;
+  width: 100%;
 }
 
 .box {
@@ -352,6 +353,8 @@ textarea {
 
 .info > p {
   margin-top: 20px;
+  text-decoration: underline;
+  text-decoration-color: #FF8520;
 }
 
 .contactimg {

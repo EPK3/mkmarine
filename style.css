@@ -364,7 +364,7 @@ textarea {
 }
 
 .contactimg {
-  width: 50px;
+  width: 100px;
   margin-top: 50px;
 }
 
@@ -373,12 +373,12 @@ textarea {
 	background:linear-gradient(to right, #FF8520 100%, #D76201 5%);
 	background-color:#FF8520;
 	border-radius:15px;
-	border:1px solid #d6bcd6;
+	border:1px solid #2854BA;
 	display:inline-block;
 	cursor:pointer;
 	color:#FFFFFF;
-	font-family:Arial;
-	font-size:17px;
+	font-family: "Merriweather", serif;
+	font-size:16px;
 	padding:7px 25px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #e1e2ed;
@@ -465,8 +465,9 @@ textarea {
     text-align: center;
   }
 
-  video {
-    width: 80vw;
+  .submit {
+    padding: 0;
+    font-size: 12px;
   }
 
   .card > img {

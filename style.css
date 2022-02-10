@@ -110,14 +110,8 @@ li a.active {
   border-left: 1px solid #FF8520;
 }
 
-.colorbreak {
-  width: 100%;
-  background-color: #FF8520;
-  height: 20vh;
-}
-
 .bottom {
-  background: url(./img/scuba-diver.jpg) no-repeat center center;
+  background: url(./img/scuba-diver.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -230,6 +224,8 @@ footer {
   display: grid;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 100;
 }
 
 .enter {
@@ -250,6 +246,36 @@ footer {
 .buttonlogo {
   height: 100px;
   width: 125px;
+}
+
+#sky {
+	overflow: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#clouds {
+	width: 200%;
+	height: 100%;
+  opacity: 0.8;
+	background-image: url(http://demos.creative-tim.com/paper-kit-2/assets/img/clouds.png);
+	background-size: cover;
+	-webkit-animation: movingclouds 60s linear infinite;
+	-moz-animation: movingclouds 60s linear infinite;
+	-o-animation: movingclouds 60s linear infinite;
+}
+
+@keyframes movingclouds {
+	0% {margin-left: 0%;}
+	100% {margin-left: -100%;}
+}
+
+.frontpage > #social-buttons {
+  position: relative;
+  z-index: 100;
 }
 
 /* Services */
@@ -297,7 +323,7 @@ footer {
 
 .card {
     margin: 20px;
-    border: 2px solid #283450;
+    border: 4px solid #000000;
     line-height: 150%;
 }
 
@@ -311,7 +337,9 @@ footer {
 /* Contact Page */
 
 .contactbackground {
-  background: url(./img/contactbackground.png) no-repeat center left fixed;
+  background: url(./img/wheelbackground.png) no-repeat center center;
+  height: 100%;
+  width: 100%;
 }
 
 .contact-container {
